@@ -4,9 +4,11 @@ from sklearn.model_selection import train_test_split # type: ignore
 import logging
 import yaml
 
+
 #Ensure the "logs" directory exists
 log_dir = 'logs'
 os.makedirs(log_dir, exist_ok=True)
+
 
 #Logging configuration
 logger = logging.getLogger('data_ingestion')
