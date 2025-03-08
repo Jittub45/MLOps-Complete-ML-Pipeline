@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import logging
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier # type: ignore
 import yaml
 
 # Ensure the "logs" directory exists
